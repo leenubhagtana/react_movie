@@ -1,0 +1,43 @@
+{
+  "users": [
+    {
+      "name": "ria",
+      "dateOfBirth": "2015-02-10",
+      "address": "delhi",
+      "password": "56",
+      "confirmPassword": "56",
+      "gender": "Female",
+      "id": 3
+    },
+    {
+      "name": "priya",
+      "dateOfBirth": "2015-02-10",
+      "address": "delhi",
+      "password": "56",
+      "confirmPassword": "56",
+      "gender": "Female",
+      "id": 4
+    }
+  ],
+  "admin": [
+    {
+      "username": "admin",
+      "password": "pass",
+      "id": 1
+    }
+  ],
+  "movies": [
+    {
+      "title": "The Nun 2",
+      "genre": "Horror",
+      "about": "horror movie\n",
+      "id": 1
+    },
+    {
+      "title": "Home alone",
+      "genre": "Comedy",
+      "about": "Comedy",
+      "id": 2
+    }
+  ]
+}
