@@ -21,7 +21,7 @@ function App() {
         <Route path="/usermovie" element={<Usermovie />} />
 
 
-        {/* Add other routes for your app */}
+        
       </Routes>
     </Router>
   );
