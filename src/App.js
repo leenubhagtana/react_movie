@@ -20,14 +20,7 @@ function App() {
         <Route path="/form" element={<Form />} />
         <Route path="/usermovie" element={<Usermovie />} />
       </Routes>
-      <div style={{ textAlign: "center", marginTop: "20px" }}>
-        <Link to="/login">
-          <button style={{ marginRight: "20px" }}>Login</button>
-        </Link>
-        <Link to="/usermovie">
-          <button>User Movies</button>
-        </Link>
-      </div>
+      
     </Router>
   );
 }
