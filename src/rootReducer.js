@@ -5,18 +5,17 @@ import { all } from "redux-saga/effects";
 import { authReducer } from "./authReducers";
 import userReducer from "./userReducer";
 import { authSaga } from "./authSagas";
-import { userSaga } from "./userSaga"; // Import the new userSaga
+import { userSaga } from "./userSaga"; 
 
 // Root reducer combining all reducers
 const rootReducer = combineReducers({
   auth: authReducer,
-  user: userReducer, // Add the user reducer
-  // Add other reducers if you have more in your application
+  user: userReducer, 
 });
 
 // Root saga combining all sagas
 function* rootSaga() {
-  yield all([ authSaga(), userSaga()]); // Include the userSaga
+  yield all([ authSaga(), userSaga()]); 
 }
 
 // Create the saga middleware and store
